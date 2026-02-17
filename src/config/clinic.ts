@@ -1,281 +1,317 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Clínica estética ébers",
+  logo: "/images/logo.png",
+  tagline: "Tu centro de belleza de confianza en Ciudad Real",
+  description: "Clínica estética ébers es tu centro de belleza en Ciudad Real que combina tecnología de vanguardia con atención personalizada. Especialistas en depilación láser, tratamientos faciales, masajes relajantes y cuidados corporales. Con una valoración de 4.7 estrellas, nuestros clientes destacan nuestra profesionalidad, los mejores aparatos del mercado y un ambiente acogedor donde sentirte como en casa.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#8da7ad",
+    secondary: "#2a3234",
+    accent: "#b7c8cc",
+    neutral: "#f6f8f8"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
+  phone: "608 00 12 45",
+  whatsapp: "+34608001245",
   whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Av. Lagunas de Ruidera, 34, 13004 Ciudad Real, España",
+    city: "Ciudad Real",
+    province: "",
+    postalCode: "13004",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=13278121735225152875&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Cl%C3%ADnica%20est%C3%A9tica%20%C3%A9bers%20%4038.9786%2C-3.92339&z=16&output=embed",
+  coordinates: {
+    lat: 38.9786,
+    lng: -3.92339
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "9:30–14:00, 17:00–20:30"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
     rating: 4.7,
-    count: 190,
-    url: "#",
+    count: 24,
+    url: "https://maps.google.com/?cid=13278121735225152875&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Andrea Pinto",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Pregunta a la comunidad\nEncantada con clínica estética de ebers un sitio nuevo en ciudad real con los mejores aparatos de calidad y una excelente atención, me fui super contenta con mi limpieza facial y ni hablar de la depilación láser una maravilla.\n\nMe gusta\n\nResponder",
+        date: "Hace 2 años"
       },
       {
-        author: "Javier Padilla",
+        author: "Gibely Andreina Contreras Sons",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Excelente servicio, muy profesionales y amables. El sitio es muy acogedor. Ayer fui por un masaje que me gané a través de un sorteo en Instagram. Súper relajante y recomendable.",
+        date: "Hace 2 años"
       },
       {
-        author: "Melanie Ponce",
+        author: "Beatriz Puebla",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Un gran centro de belleza.\nUn trato, educación, paciencia y profesionalidad increíblemente excelente.\nRecomendable al 💯 X 💯\n\nUn fuerte abrazo❤️",
+        date: "Hace 3 semanas"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Genoveva Cobler Ibancos",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Profesionalidad, amabilidad y comodidad.\nSin duda volvería a repetir.\nGracias por vuestro servicio!!",
+        date: "Hace 11 meses"
       },
-    ],
+      {
+        author: "Maria Alcazar Marin Salcedo",
+        rating: 5,
+        text: "Excelente atención!!!\nGran profesional y personal.\nUn trato maravilloso!!",
+        date: "Hace 11 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
-    {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
-    },
-    {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
-    },
     {
       id: "depilacion-laser",
       name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      description: "Eliminación definitiva del vello con tecnología láser de última generación. Nuestros equipos de máxima calidad garantizan tratamientos seguros, prácticamente indoloros y con resultados duraderos. Apto para todo tipo de pieles y zonas del cuerpo.",
+      benefits: [
+        "Tecnología láser de última generación",
+        "Resultados visibles desde la primera sesión",
+        "Tratamiento seguro y prácticamente indoloro"
+      ],
+      icon: "Zap"
+    },
+    {
+      id: "limpieza-facial",
+      name: "Limpieza Facial Profunda",
+      description: "Tratamiento facial personalizado que elimina impurezas, puntos negros y células muertas. Oxigenamos tu piel, equilibramos su pH y aplicamos activos específicos según tu tipo de piel. Resultados inmediatos: piel radiante, suave y renovada.",
+      benefits: [
+        "Piel luminosa y renovada al instante",
+        "Elimina impurezas y puntos negros",
+        "Tratamiento adaptado a tu tipo de piel"
+      ],
+      icon: "Sparkles"
+    },
+    {
+      id: "masajes-relajantes",
+      name: "Masajes Relajantes",
+      description: "Desconecta del estrés con nuestros masajes terapéuticos y relajantes. Técnicas profesionales que alivian tensiones musculares, mejoran la circulación y proporcionan un bienestar integral. Un momento de paz en nuestro ambiente acogedor.",
+      benefits: [
+        "Alivio inmediato de tensiones musculares",
+        "Ambiente tranquilo y acogedor",
+        "Profesionales especializados en técnicas de masaje"
+      ],
+      icon: "Hand"
     },
     {
       id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      name: "Tratamientos Faciales Avanzados",
+      description: "Cuidados faciales personalizados con tecnología de vanguardia. Desde tratamientos antiedad hasta hidratación profunda y luminosidad. Utilizamos aparatología de máxima calidad y productos premium para resultados profesionales.",
+      benefits: [
+        "Aparatología de última generación",
+        "Productos premium de alta cosmética",
+        "Protocolos personalizados según tu piel"
+      ],
+      icon: "Flower2"
     },
     {
       id: "tratamientos-corporales",
       name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      description: "Remodela tu silueta con nuestros tratamientos corporales avanzados. Reductores, reafirmantes y anticelulíticos con tecnología de última generación. Diseñamos protocolos personalizados para ayudarte a alcanzar tus objetivos.",
+      benefits: [
+        "Tecnología avanzada para resultados visibles",
+        "Planes personalizados según tus objetivos",
+        "Seguimiento profesional continuo"
+      ],
+      icon: "Heart"
     },
     {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      description: "Cuidado completo de manos y pies con productos de alta calidad. Desde manicuras clásicas hasta tratamientos de hidratación profunda y esmaltados permanentes. Manos y pies perfectos durante semanas.",
+      benefits: [
+        "Esmaltes de larga duración",
+        "Tratamientos hidratantes y reparadores",
+        "Acabado profesional impecable"
+      ],
+      icon: "Sparkles"
     },
     {
       id: "extensiones-pestanas",
       name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      description: "Mirada impactante con nuestras extensiones de pestañas pelo a pelo. Aplicación personalizada según la forma de tus ojos y el efecto deseado. Resultados naturales que realzan tu belleza sin necesidad de maquillaje.",
+      benefits: [
+        "Aplicación pelo a pelo para efecto natural",
+        "Diseño personalizado según tu mirada",
+        "Larga duración con mantenimiento adecuado"
+      ],
+      icon: "Eye"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "micropigmentacion",
+      name: "Micropigmentación",
+      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y armoniosos. Técnicas avanzadas que respetan tus facciones y realzan tu belleza. Despierta perfecta cada mañana sin esfuerzo.",
+      benefits: [
+        "Resultados naturales y armoniosos",
+        "Técnicas avanzadas y seguras",
+        "Ahorra tiempo en tu rutina diaria"
+      ],
+      icon: "Flower2"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llámanos al 608 00 12 45 o escríbenos por WhatsApp para solicitar tu cita. Te atenderemos personalmente y resolveremos todas tus dudas sobre nuestros tratamientos y tecnología."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Consulta Personalizada",
+      description: "En tu primera visita analizamos tus necesidades específicas y tipo de piel. Te explicamos en detalle el tratamiento más adecuado para ti, la tecnología que utilizaremos y los resultados que puedes esperar."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tu Tratamiento",
+      description: "Realizamos tu tratamiento en nuestro espacio acogedor con aparatología de última generación. Profesionalidad, atención al detalle y un ambiente relajante para que disfrutes de una experiencia única."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Resultados y Seguimiento",
+      description: "Disfruta de resultados visibles desde la primera sesión. Te proporcionamos recomendaciones personalizadas y un seguimiento continuo para garantizar que alcances tus objetivos de belleza y bienestar."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Excelente Valoración 4.7★",
+      description: "Con 4.7 estrellas sobre 5 en Google y 24 reseñas, nuestros clientes avalan nuestra profesionalidad, atención excepcional y resultados visibles. La satisfacción de quienes confían en nosotros es nuestra mejor carta de presentación.",
+      icon: "Sparkles"
     },
     {
       title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      description: "Trabajamos con los mejores aparatos de calidad del mercado. Tecnología láser de última generación, aparatología facial avanzada y equipos profesionales que garantizan tratamientos seguros, efectivos y con resultados superiores.",
+      icon: "Zap"
     },
     {
       title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      description: "Nuestro equipo de profesionales altamente cualificados te ofrece un trato cercano, educado y completamente personalizado. Analizamos tus necesidades específicas y diseñamos el tratamiento ideal para ti, con seguimiento continuo.",
+      icon: "Heart"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Ambiente Acogedor",
+      description: "Nuestras instalaciones modernas en Ciudad Real están diseñadas para que te sientas como en casa. Un espacio limpio, cómodo y relajante donde disfrutar de tu experiencia de belleza y bienestar en un entorno profesional y tranquilo.",
+      icon: "Flower2"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Equipo de Clínica estética ébers",
+      role: "Especialistas en Estética",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Clínica estética ébers nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Clínica estética ébers - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Clínica estética ébers - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Clínica estética ébers - Imagen 3"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Clínica estética ébers - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Clínica estética ébers - Imagen 5"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué hace diferente a Clínica estética ébers?",
+      answer: "En Clínica estética ébers combinamos tecnología de vanguardia con atención personalizada excepcional. Nuestros clientes destacan nuestros aparatos de máxima calidad, el ambiente acogedor y la profesionalidad de nuestro equipo. Con una valoración de 4.7 estrellas sobre 5 en Google, somos uno de los centros mejor valorados de Ciudad Real."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cuántas sesiones necesito de depilación láser?",
+      answer: "El número de sesiones varía según la zona a tratar, tipo de piel y vello. Generalmente se requieren entre 6 y 8 sesiones para obtener resultados óptimos. En Clínica estética ébers utilizamos tecnología láser de última generación que permite tratamientos más efectivos y rápidos. En tu consulta personalizada evaluaremos tu caso específico y te daremos un plan detallado."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿La depilación láser duele?",
+      answer: "Nuestros equipos de última generación hacen que el tratamiento sea prácticamente indoloro. La mayoría de nuestros clientes describen la sensación como un ligero hormigueo. Además, utilizamos sistemas de enfriamiento que aumentan el confort durante la sesión. Nuestras clientas destacan lo cómodo y rápido del procedimiento."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Qué incluye una limpieza facial en vuestra clínica?",
+      answer: "Nuestra limpieza facial profunda incluye análisis de piel, limpieza con productos específicos, exfoliación, extracción de impurezas, alta frecuencia, mascarilla personalizada y hidratación final. Utilizamos aparatología profesional y productos premium. El tratamiento dura aproximadamente 60 minutos y los resultados son inmediatos: piel luminosa, limpia y renovada."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Ofrecéis masajes relajantes?",
+      answer: "Sí, en Clínica estética ébers contamos con masajes relajantes y terapéuticos realizados por profesionales especializados. Nuestro ambiente acogedor y tranquilo es perfecto para desconectar del estrés. Muchos de nuestros clientes destacan lo relajante y recomendable de esta experiencia. Puedes reservar tu sesión llamando al 608 00 12 45."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Cómo puedo pedir cita?",
+      answer: "Puedes solicitar tu cita llamando directamente al 608 00 12 45 o escribiéndonos por WhatsApp al mismo número. Te atenderemos personalmente, resolveremos tus dudas y buscaremos el horario que mejor se adapte a ti. También realizamos sorteos y promociones a través de nuestro Instagram."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué tipo de tecnología utilizáis?",
+      answer: "En Clínica estética ébers apostamos por la tecnología más avanzada del mercado. Contamos con equipos de depilación láser de última generación, aparatología facial profesional y tecnología corporal de vanguardia. Nuestros clientes destacan especialmente la calidad de nuestros aparatos y los resultados que proporcionan."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Hacéis tratamientos para hombres?",
+      answer: "Por supuesto. Todos nuestros tratamientos están disponibles tanto para mujeres como para hombres. La depilación láser, tratamientos faciales y masajes son cada vez más demandados por el público masculino. En Clínica estética ébers ofrecemos un ambiente profesional y discreto donde todos se sienten cómodos."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Clínica estética ébers",
+    defaultTitle: "Clínica estética ébers - Centro de Belleza en Ciudad Real",
+    defaultDescription: "Centro de estética en Ciudad Real ★4.7. Depilación láser, tratamientos faciales, masajes y más. Tecnología avanzada y atención personalizada. ☎️ 608 00 12 45",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
+      "clínica estética Ciudad Real",
+      "depilación láser Ciudad Real",
+      "tratamientos faciales Ciudad Real",
+      "limpieza facial Ciudad Real",
+      "masajes relajantes Ciudad Real",
+      "centro de belleza Ciudad Real",
+      "Clínica estética ébers",
+      "micropigmentación Ciudad Real",
+      "extensiones pestañas Ciudad Real",
+      "tratamientos corporales Ciudad Real",
       "estética Ciudad Real",
+      "manicura pedicura Ciudad Real"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Clínica estética ébers",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Av. Lagunas de Ruidera, 34, 13004 Ciudad Real, España, Ciudad Real"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
+  heroHeadline: [
+    "Tu Centro de",
+    "Belleza",
+    "en Ciudad Real"
+  ],
+  heroDescription: "En Clínica estética ébers encontrarás los tratamientos de belleza más avanzados con tecnología de última generación. Ubicados en Ciudad Real, ofrecemos desde depilación láser definitiva hasta limpiezas faciales profundas y masajes relajantes. Un espacio moderno y acogedor donde profesionalidad y calidez se unen para ofrecerte resultados visibles.",
+  specialty: "Depilación Láser",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
+  ctaHeadline: "¿Lista para transformar tu belleza?",
+  ctaDescription: "Solicita tu cita en Clínica estética ébers y descubre por qué somos el centro de estética mejor valorado de Ciudad Real. Primera consulta personalizada sin compromiso.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
@@ -300,8 +336,8 @@ export const clinic = {
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
     teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamDescription: "Experiencia y pasión al servicio de tu belleza"
+  }
 }
 
 export type Clinic = typeof clinic
