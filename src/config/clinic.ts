@@ -2,7 +2,7 @@ export const clinic = {
   name: "Clínica estética ébers",
   logo: "/images/logo.png",
   tagline: "Tu centro de belleza de confianza en Ciudad Real",
-  description: "Clínica estética ébers es tu centro de belleza en Ciudad Real que combina tecnología de vanguardia con atención personalizada. Especialistas en depilación láser, tratamientos faciales, masajes relajantes y cuidados corporales. Con una valoración de 4.7 estrellas, nuestros clientes destacan nuestra profesionalidad, los mejores aparatos del mercado y un ambiente acogedor donde sentirte como en casa.",
+  description: "Clínica estética ébers es tu nuevo centro de belleza en Ciudad Real, equipado con los mejores aparatos de última generación. Ofrecemos tratamientos faciales avanzados, depilación láser de alta calidad, masajes relajantes y cuidados corporales personalizados. Con una valoración de 4.7 estrellas en Google, nuestros clientes destacan nuestra profesionalidad, atención excepcional y un ambiente acogedor donde te sentirás como en casa.",
   colors: {
     primary: "#8da7ad",
     secondary: "#2a3234",
@@ -81,90 +81,90 @@ export const clinic = {
   },
   services: [
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Nuestros equipos de máxima calidad garantizan tratamientos seguros, prácticamente indoloros y con resultados duraderos. Apto para todo tipo de pieles y zonas del cuerpo.",
-      benefits: [
-        "Tecnología láser de última generación",
-        "Resultados visibles desde la primera sesión",
-        "Tratamiento seguro y prácticamente indoloro"
-      ],
-      icon: "Zap"
-    },
-    {
       id: "limpieza-facial",
-      name: "Limpieza Facial Profunda",
-      description: "Tratamiento facial personalizado que elimina impurezas, puntos negros y células muertas. Oxigenamos tu piel, equilibramos su pH y aplicamos activos específicos según tu tipo de piel. Resultados inmediatos: piel radiante, suave y renovada.",
+      name: "Tratamientos Faciales",
+      description: "Limpiezas faciales profundas y tratamientos personalizados para cada tipo de piel. Utilizamos aparatología de última generación para conseguir una piel luminosa, hidratada y rejuvenecida. Nuestros clientes destacan los resultados inmediatos y la experiencia relajante.",
       benefits: [
-        "Piel luminosa y renovada al instante",
-        "Elimina impurezas y puntos negros",
-        "Tratamiento adaptado a tu tipo de piel"
+        "Piel visiblemente más luminosa y uniforme",
+        "Hidratación profunda y duradera",
+        "Tecnología avanzada con resultados desde la primera sesión"
       ],
       icon: "Sparkles"
     },
     {
-      id: "masajes-relajantes",
-      name: "Masajes Relajantes",
-      description: "Desconecta del estrés con nuestros masajes terapéuticos y relajantes. Técnicas profesionales que alivian tensiones musculares, mejoran la circulación y proporcionan un bienestar integral. Un momento de paz en nuestro ambiente acogedor.",
+      id: "depilacion-laser",
+      name: "Depilación Láser",
+      description: "Eliminación definitiva del vello con tecnología láser de máxima calidad. Nuestros equipos de última generación garantizan tratamientos seguros, eficaces y prácticamente indoloros. Una de nuestras especialidades más valoradas por nuestras clientas.",
       benefits: [
-        "Alivio inmediato de tensiones musculares",
-        "Ambiente tranquilo y acogedor",
-        "Profesionales especializados en técnicas de masaje"
+        "Adiós al vello para siempre de forma segura",
+        "Equipos láser de última generación",
+        "Tratamientos rápidos y confortables"
+      ],
+      icon: "Zap"
+    },
+    {
+      id: "masajes",
+      name: "Masajes Relajantes",
+      description: "Masajes terapéuticos y relajantes en un ambiente acogedor y tranquilo. Técnicas profesionales para liberar tensiones, mejorar la circulación y alcanzar un estado de bienestar absoluto. Experiencia súper relajante y recomendable.",
+      benefits: [
+        "Liberación profunda de tensiones musculares",
+        "Mejora de la circulación y el bienestar general",
+        "Ambiente acogedor que favorece la relajación total"
       ],
       icon: "Hand"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales Avanzados",
-      description: "Cuidados faciales personalizados con tecnología de vanguardia. Desde tratamientos antiedad hasta hidratación profunda y luminosidad. Utilizamos aparatología de máxima calidad y productos premium para resultados profesionales.",
-      benefits: [
-        "Aparatología de última generación",
-        "Productos premium de alta cosmética",
-        "Protocolos personalizados según tu piel"
-      ],
-      icon: "Flower2"
-    },
-    {
       id: "tratamientos-corporales",
       name: "Tratamientos Corporales",
-      description: "Remodela tu silueta con nuestros tratamientos corporales avanzados. Reductores, reafirmantes y anticelulíticos con tecnología de última generación. Diseñamos protocolos personalizados para ayudarte a alcanzar tus objetivos.",
+      description: "Tratamientos reductores, reafirmantes y anticelulíticos con aparatología avanzada. Diseñamos protocolos personalizados según tus objetivos para moldear tu silueta y mejorar la firmeza de tu piel con resultados visibles.",
       benefits: [
-        "Tecnología avanzada para resultados visibles",
-        "Planes personalizados según tus objetivos",
-        "Seguimiento profesional continuo"
+        "Reducción visible de volumen y celulitis",
+        "Piel más firme y tonificada",
+        "Protocolos personalizados según tus objetivos"
       ],
       icon: "Heart"
     },
     {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con productos de alta calidad. Desde manicuras clásicas hasta tratamientos de hidratación profunda y esmaltados permanentes. Manos y pies perfectos durante semanas.",
+      description: "Cuidado completo de manos y pies con productos premium y esmaltes de larga duración. Tratamientos que combinan estética y salud para lucir unas manos y pies impecables en todo momento.",
       benefits: [
-        "Esmaltes de larga duración",
-        "Tratamientos hidratantes y reparadores",
-        "Acabado profesional impecable"
+        "Manos y pies perfectos con acabado profesional",
+        "Esmaltes de alta calidad y larga duración",
+        "Cuidado integral de uñas y cutículas"
       ],
       icon: "Sparkles"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con nuestras extensiones de pestañas pelo a pelo. Aplicación personalizada según la forma de tus ojos y el efecto deseado. Resultados naturales que realzan tu belleza sin necesidad de maquillaje.",
+      id: "micropigmentacion",
+      name: "Micropigmentación",
+      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y armoniosos. Técnica de precisión que realza tus rasgos y simplifica tu rutina de belleza diaria.",
       benefits: [
-        "Aplicación pelo a pelo para efecto natural",
-        "Diseño personalizado según tu mirada",
-        "Larga duración con mantenimiento adecuado"
+        "Resultados naturales que realzan tu belleza",
+        "Despierta perfecta sin necesidad de maquillaje",
+        "Técnica precisa y segura con pigmentos de calidad"
       ],
       icon: "Eye"
     },
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y armoniosos. Técnicas avanzadas que respetan tus facciones y realzan tu belleza. Despierta perfecta cada mañana sin esfuerzo.",
+      id: "extensiones-pestanas",
+      name: "Extensiones de Pestañas",
+      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Aplicación profesional para conseguir el volumen y longitud perfectos, respetando la salud de tus pestañas naturales.",
       benefits: [
-        "Resultados naturales y armoniosos",
-        "Técnicas avanzadas y seguras",
-        "Ahorra tiempo en tu rutina diaria"
+        "Mirada intensa y expresiva sin máscara de pestañas",
+        "Aplicación pelo a pelo para resultados naturales",
+        "Mayor volumen y longitud duraderos"
+      ],
+      icon: "Eye"
+    },
+    {
+      id: "cuidado-capilar",
+      name: "Cuidados Capilares",
+      description: "Tratamientos especializados para el cuidado y embellecimiento del cabello. Protocolos personalizados para fortalecer, nutrir y revitalizar tu melena con productos profesionales de alta gama.",
+      benefits: [
+        "Cabello más fuerte, brillante y saludable",
+        "Tratamientos adaptados a tu tipo de cabello",
+        "Productos profesionales de máxima calidad"
       ],
       icon: "Flower2"
     }
@@ -173,43 +173,43 @@ export const clinic = {
     {
       step: 1,
       title: "Contacta con Nosotros",
-      description: "Llámanos al 608 00 12 45 o escríbenos por WhatsApp para solicitar tu cita. Te atenderemos personalmente y resolveremos todas tus dudas sobre nuestros tratamientos y tecnología."
+      description: "Llámanos al 608 00 12 45 o escríbenos por WhatsApp para solicitar tu cita. Te atenderemos con la amabilidad y profesionalidad que nos caracteriza para encontrar el mejor momento para ti."
     },
     {
       step: 2,
       title: "Consulta Personalizada",
-      description: "En tu primera visita analizamos tus necesidades específicas y tipo de piel. Te explicamos en detalle el tratamiento más adecuado para ti, la tecnología que utilizaremos y los resultados que puedes esperar."
+      description: "En tu primera visita a nuestra clínica, analizamos tus necesidades específicas y el estado actual de tu piel o zona a tratar. Diseñamos juntos el tratamiento ideal con nuestra tecnología de última generación."
     },
     {
       step: 3,
-      title: "Tu Tratamiento",
-      description: "Realizamos tu tratamiento en nuestro espacio acogedor con aparatología de última generación. Profesionalidad, atención al detalle y un ambiente relajante para que disfrutes de una experiencia única."
+      title: "Tratamiento con Tecnología Avanzada",
+      description: "Realizamos tu tratamiento en nuestras instalaciones acogedoras, utilizando los mejores aparatos de calidad del mercado. Disfrutarás de una experiencia confortable y profesional en cada sesión."
     },
     {
       step: 4,
-      title: "Resultados y Seguimiento",
-      description: "Disfruta de resultados visibles desde la primera sesión. Te proporcionamos recomendaciones personalizadas y un seguimiento continuo para garantizar que alcances tus objetivos de belleza y bienestar."
+      title: "Resultados Visibles y Seguimiento",
+      description: "Observa los resultados desde la primera sesión y recibe nuestro seguimiento personalizado. Te acompañamos en todo el proceso para garantizar que alcances tus objetivos de belleza y bienestar."
     }
   ],
   whyUs: [
     {
-      title: "Excelente Valoración 4.7★",
-      description: "Con 4.7 estrellas sobre 5 en Google y 24 reseñas, nuestros clientes avalan nuestra profesionalidad, atención excepcional y resultados visibles. La satisfacción de quienes confían en nosotros es nuestra mejor carta de presentación.",
-      icon: "Sparkles"
-    },
-    {
-      title: "Tecnología de Vanguardia",
-      description: "Trabajamos con los mejores aparatos de calidad del mercado. Tecnología láser de última generación, aparatología facial avanzada y equipos profesionales que garantizan tratamientos seguros, efectivos y con resultados superiores.",
+      title: "Tecnología de Última Generación",
+      description: "Contamos con los mejores aparatos de calidad del mercado. Equipamiento de vanguardia para tratamientos faciales, depilación láser y cuidados corporales que garantizan resultados visibles desde la primera sesión.",
       icon: "Zap"
     },
     {
-      title: "Atención Personalizada",
-      description: "Nuestro equipo de profesionales altamente cualificados te ofrece un trato cercano, educado y completamente personalizado. Analizamos tus necesidades específicas y diseñamos el tratamiento ideal para ti, con seguimiento continuo.",
+      title: "Excelente Valoración 4.7★",
+      description: "Con 4.7 estrellas en Google basadas en 24 reseñas reales, nuestros clientes destacan nuestra profesionalidad, amabilidad y la calidad de nuestros tratamientos. Un centro recomendable al 100% según quienes ya nos conocen.",
+      icon: "Sparkles"
+    },
+    {
+      title: "Atención Personalizada y Cercana",
+      description: "Nuestro equipo se caracteriza por su educación, paciencia y trato maravilloso. Cada cliente recibe una atención individualizada en un ambiente acogedor donde te sentirás cómoda y cuidada en todo momento.",
       icon: "Heart"
     },
     {
-      title: "Ambiente Acogedor",
-      description: "Nuestras instalaciones modernas en Ciudad Real están diseñadas para que te sientas como en casa. Un espacio limpio, cómodo y relajante donde disfrutar de tu experiencia de belleza y bienestar en un entorno profesional y tranquilo.",
+      title: "Centro Nuevo y Moderno",
+      description: "Somos un centro de belleza nuevo en Ciudad Real, diseñado para ofrecerte la mejor experiencia. Instalaciones modernas, acogedoras y equipadas con todo lo necesario para tu confort y bienestar durante cada tratamiento.",
       icon: "Flower2"
     }
   ],
@@ -231,11 +231,11 @@ export const clinic = {
       alt: "Clínica estética ébers - Imagen 2"
     },
     {
-      src: "/images/gallery/3.webp",
+      src: "/images/hero.webp",
       alt: "Clínica estética ébers - Imagen 3"
     },
     {
-      src: "/images/hero.webp",
+      src: "/images/gallery/4.webp",
       alt: "Clínica estética ébers - Imagen 4"
     },
     {
@@ -245,55 +245,55 @@ export const clinic = {
   ],
   faq: [
     {
-      question: "¿Qué hace diferente a Clínica estética ébers?",
-      answer: "En Clínica estética ébers combinamos tecnología de vanguardia con atención personalizada excepcional. Nuestros clientes destacan nuestros aparatos de máxima calidad, el ambiente acogedor y la profesionalidad de nuestro equipo. Con una valoración de 4.7 estrellas sobre 5 en Google, somos uno de los centros mejor valorados de Ciudad Real."
+      question: "¿Qué hace especial a Clínica estética ébers?",
+      answer: "Somos un centro nuevo en Ciudad Real equipado con los mejores aparatos de última generación. Con una valoración de 4.7 estrellas en Google basada en 24 reseñas, nuestros clientes destacan nuestra excelente atención, profesionalidad y el ambiente acogedor de nuestras instalaciones. Combinamos tecnología avanzada con un trato cercano y personalizado que nos diferencia."
     },
     {
-      question: "¿Cuántas sesiones necesito de depilación láser?",
-      answer: "El número de sesiones varía según la zona a tratar, tipo de piel y vello. Generalmente se requieren entre 6 y 8 sesiones para obtener resultados óptimos. En Clínica estética ébers utilizamos tecnología láser de última generación que permite tratamientos más efectivos y rápidos. En tu consulta personalizada evaluaremos tu caso específico y te daremos un plan detallado."
-    },
-    {
-      question: "¿La depilación láser duele?",
-      answer: "Nuestros equipos de última generación hacen que el tratamiento sea prácticamente indoloro. La mayoría de nuestros clientes describen la sensación como un ligero hormigueo. Además, utilizamos sistemas de enfriamiento que aumentan el confort durante la sesión. Nuestras clientas destacan lo cómodo y rápido del procedimiento."
+      question: "¿Cómo funciona la depilación láser y cuántas sesiones necesito?",
+      answer: "Nuestra depilación láser utiliza tecnología de última generación para eliminar el vello de forma definitiva y prácticamente indolora. El número de sesiones varía según la zona y el tipo de vello, pero generalmente se necesitan entre 6 y 8 sesiones para resultados óptimos. En Clínica estética ébers evaluamos tu caso en la primera consulta y diseñamos un plan personalizado. Nuestras clientas la describen como 'una maravilla'."
     },
     {
       question: "¿Qué incluye una limpieza facial en vuestra clínica?",
-      answer: "Nuestra limpieza facial profunda incluye análisis de piel, limpieza con productos específicos, exfoliación, extracción de impurezas, alta frecuencia, mascarilla personalizada y hidratación final. Utilizamos aparatología profesional y productos premium. El tratamiento dura aproximadamente 60 minutos y los resultados son inmediatos: piel luminosa, limpia y renovada."
+      answer: "Nuestras limpiezas faciales son tratamientos completos y personalizados según tu tipo de piel. Incluyen limpieza profunda, exfoliación, extracción de impurezas, masaje facial e hidratación con aparatología de última generación. Los resultados son inmediatos: piel luminosa, limpia y revitalizada. Nuestras clientas se van 'super contentas' con los resultados desde la primera sesión."
     },
     {
-      question: "¿Ofrecéis masajes relajantes?",
-      answer: "Sí, en Clínica estética ébers contamos con masajes relajantes y terapéuticos realizados por profesionales especializados. Nuestro ambiente acogedor y tranquilo es perfecto para desconectar del estrés. Muchos de nuestros clientes destacan lo relajante y recomendable de esta experiencia. Puedes reservar tu sesión llamando al 608 00 12 45."
+      question: "¿Ofrecéis masajes relajantes? ¿Qué tipo?",
+      answer: "Sí, en Clínica estética ébers ofrecemos masajes relajantes y terapéuticos en un ambiente súper acogedor. Nuestros masajes están diseñados para liberar tensiones, mejorar la circulación y proporcionar un estado de bienestar absoluto. Utilizamos técnicas profesionales adaptadas a tus necesidades. Nuestros clientes los describen como 'súper relajantes y recomendables'."
     },
     {
-      question: "¿Cómo puedo pedir cita?",
-      answer: "Puedes solicitar tu cita llamando directamente al 608 00 12 45 o escribiéndonos por WhatsApp al mismo número. Te atenderemos personalmente, resolveremos tus dudas y buscaremos el horario que mejor se adapte a ti. También realizamos sorteos y promociones a través de nuestro Instagram."
+      question: "¿Cómo puedo solicitar una cita?",
+      answer: "Pedir cita en Clínica estética ébers es muy sencillo. Puedes llamarnos directamente al 608 00 12 45 o escribirnos por WhatsApp al mismo número. Te atenderemos con amabilidad para encontrar el mejor horario según tu disponibilidad. Estamos ubicados en Ciudad Real y te garantizamos un trato profesional desde el primer contacto."
     },
     {
-      question: "¿Qué tipo de tecnología utilizáis?",
-      answer: "En Clínica estética ébers apostamos por la tecnología más avanzada del mercado. Contamos con equipos de depilación láser de última generación, aparatología facial profesional y tecnología corporal de vanguardia. Nuestros clientes destacan especialmente la calidad de nuestros aparatos y los resultados que proporcionan."
+      question: "¿Los tratamientos son seguros y profesionales?",
+      answer: "Absolutamente. En Clínica estética ébers trabajamos con los mejores aparatos de calidad y tecnología de última generación. Nuestro equipo está altamente cualificado y ofrece un servicio profesional en cada tratamiento. Con una valoración de 4.7 estrellas, nuestros clientes destacan constantemente nuestra profesionalidad, educación y paciencia. Tu seguridad y satisfacción son nuestra prioridad."
     },
     {
-      question: "¿Hacéis tratamientos para hombres?",
-      answer: "Por supuesto. Todos nuestros tratamientos están disponibles tanto para mujeres como para hombres. La depilación láser, tratamientos faciales y masajes son cada vez más demandados por el público masculino. En Clínica estética ébers ofrecemos un ambiente profesional y discreto donde todos se sienten cómodos."
+      question: "¿Qué opinan vuestros clientes sobre la clínica?",
+      answer: "Nuestros clientes destacan tres aspectos fundamentales: la calidad de nuestros aparatos y tecnología, la excelente atención y profesionalidad de nuestro equipo, y el ambiente acogedor de nuestras instalaciones. Con 4.7 estrellas en Google, las reseñas mencionan que es un 'gran centro de belleza' recomendable al 100%, con un 'trato maravilloso' y resultados visibles. Muchas clientas afirman que 'sin duda volverían a repetir'."
+    },
+    {
+      question: "¿Realizáis tratamientos corporales reductores?",
+      answer: "Sí, en Clínica estética ébers ofrecemos tratamientos corporales reductores, reafirmantes y anticelulíticos con aparatología avanzada. Diseñamos protocolos personalizados según tus objetivos específicos para moldear tu silueta y mejorar la firmeza de tu piel. Utilizamos los mejores equipos del mercado para garantizar resultados visibles y duraderos."
     }
   ],
   seo: {
     titleTemplate: "%s | Clínica estética ébers",
     defaultTitle: "Clínica estética ébers - Centro de Belleza en Ciudad Real",
-    defaultDescription: "Centro de estética en Ciudad Real ★4.7. Depilación láser, tratamientos faciales, masajes y más. Tecnología avanzada y atención personalizada. ☎️ 608 00 12 45",
+    defaultDescription: "Centro de estética en Ciudad Real con tecnología avanzada. Depilación láser, tratamientos faciales, masajes y cuidados corporales. Valoración 4.7★. ☎️ 608 00 12 45",
     keywords: [
       "clínica estética Ciudad Real",
       "depilación láser Ciudad Real",
       "tratamientos faciales Ciudad Real",
-      "limpieza facial Ciudad Real",
-      "masajes relajantes Ciudad Real",
       "centro de belleza Ciudad Real",
       "Clínica estética ébers",
+      "masajes relajantes Ciudad Real",
+      "limpieza facial Ciudad Real",
+      "estética avanzada Ciudad Real",
+      "tratamientos corporales Ciudad Real",
       "micropigmentación Ciudad Real",
       "extensiones pestañas Ciudad Real",
-      "tratamientos corporales Ciudad Real",
-      "estética Ciudad Real",
-      "manicura pedicura Ciudad Real"
+      "mejor centro estética Ciudad Real"
     ],
     ogImage: "/og-image.jpg"
   },
@@ -307,11 +307,11 @@ export const clinic = {
     "Belleza",
     "en Ciudad Real"
   ],
-  heroDescription: "En Clínica estética ébers encontrarás los tratamientos de belleza más avanzados con tecnología de última generación. Ubicados en Ciudad Real, ofrecemos desde depilación láser definitiva hasta limpiezas faciales profundas y masajes relajantes. Un espacio moderno y acogedor donde profesionalidad y calidez se unen para ofrecerte resultados visibles.",
-  specialty: "Depilación Láser",
+  heroDescription: "Bienvenida a Clínica estética ébers, el centro de belleza más moderno de Ciudad Real. Combinamos tecnología de vanguardia con un trato cercano y profesional para ofrecerte resultados visibles desde la primera sesión. Descubre tratamientos personalizados que realzan tu belleza natural.",
+  specialty: "Estética Avanzada",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para transformar tu belleza?",
-  ctaDescription: "Solicita tu cita en Clínica estética ébers y descubre por qué somos el centro de estética mejor valorado de Ciudad Real. Primera consulta personalizada sin compromiso.",
+  ctaHeadline: "¿Lista para sentirte radiante y renovada?",
+  ctaDescription: "Solicita tu cita en Clínica estética ébers y descubre por qué somos el centro de belleza mejor valorado de Ciudad Real. Te esperamos para diseñar el tratamiento perfecto para ti.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
